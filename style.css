@@ -1,0 +1,242 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+ 
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+nav,img,ul,.dog, .ma{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  
+}
+
+ul{
+  flex-basis: 50%;
+
+}
+
+
+.tiger{
+   display: flex;
+   margin-top: 30px;
+   justify-content: space-between; 
+   width: 50%;
+   
+}
+
+.dog{
+    width: 80%;
+    margin-left: 30px; 
+    margin-top: 50px;
+    flex-direction: row-reverse;
+    
+}
+
+
+.monkey{
+  font-size: larger;
+
+}
+
+.man{
+     width: 60%;
+    
+     
+}
+
+.qtip{
+     color: white;
+     background-color: orange;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: smaller;
+}
+
+.son{
+     padding-top: 150px;
+     width: 50%;
+     margin-left: 300px;
+         
+     
+}
+
+.eriga{
+     color: orange;
+}
+
+.akp{
+    font-family: 'Gill Sans';
+}
+
+.by,.lil {
+      display: flex;      
+}
+
+.kid{
+    width: 22%;
+    justify-content: space-around;
+}
+
+.boz{
+   width: 35%;
+   margin-left: 350px;
+   
+   
+}
+
+
+.cole{
+    padding-top: 200px;
+    
+}
+
+.cole  ul{
+   margin-top: 100px;
+}
+
+
+
+.ryt{
+     margin-left: 410px;
+}
+
+.mca{
+     margin-left: 520px;
+     color: orange;
+}
+
+.roy{
+     font-size: 50px;
+     margin-left: 350px;
+}
+
+.ma{
+     width: 100%;
+     justify-content: flex-end;
+     margin-left: 300px;
+    
+}
+
+.zouk {
+       display: flex;
+       align-items: flex-start;
+        color: white;
+        background-color: orange;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: smaller;
+   }
+
+
+div section{        
+          padding-top: 100px;
+}
+
+.ewu,.joe,.ike,.syk,.num {
+      margin-left: 500px;
+}
+
+.ewu {
+     margin-left: 515px;
+     color: orange;
+}
+.joe{
+     margin-left: 450px;
+     
+}
+.ike {
+      margin-left: 520px;
+}
+
+.syk {
+    margin-left: 520px;
+}
+
+.num{
+    font-size: larger;
+    color: orange;
+}
+
+.murs {
+  margin-left: 500px;   
+}
+
+
+
+.syd {
+     margin-top: 10px;
+     
+}
+
+.ben {
+     margin-top: 500px;
+}
+
+.krs {
+     display: flex;
+     justify-content: center;     
+}
+
+.ree,.dee,.fee,.wee,.lee,.zee,.yee {
+                         margin-left: 250px;
+                         width: 50%;
+                         
+                         
+}
+
+.ree{
+   margin-top: 100px;
+}
+
+.fee {
+     margin-left: 200px;
+}
+
+.lee {
+      margin-left: 240px;;
+}
+
+.zee{
+     margin-left: 270px;
+}
+
+
+.yee {
+      margin-left: 180px;
+}
+
+.wee {
+      margin-left: 150px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
